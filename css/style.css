@@ -396,6 +396,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 .form-control {
+	color: black;
     border: none;
     border-bottom: 2px solid #00ade6;
     display: block;
