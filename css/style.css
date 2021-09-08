@@ -396,11 +396,9 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 .form-control {
-<<<<<<< HEAD
 	color: black;
-=======
 	background-color: aliceblue;
->>>>>>> e83faaef8b20fe5ff09ab371da1a8f449df2d0f3
+
     border: none;
     border-bottom: 2px solid #00ade6;
     display: block;
