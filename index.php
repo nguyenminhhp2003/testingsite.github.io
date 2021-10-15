@@ -84,13 +84,15 @@
     </form>
   </div>
 </div>
+
+
 <!-- Footer Bottom Area Start -->
-<div class=" kilimanjaro_bottom_header_one section_padding_50 text-center">
+<div  class=" kilimanjaro_bottom_header_one section_padding_50 text-center">
   <div class="container">
     <div class="row">
       <div class="col-12">
 
-        <p>© All Rights Reserved by NMinhPhong</p>
+        <p >© All Rights Reserved by NMinhPhong <?php echo "2020-" . date("Y")?> </p>
       </div>
     </div>
   </div>
