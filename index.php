@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +18,7 @@
       <a href="#home" class="w3-bar-item w3-button"><b>Pentesting Training</b> Site</a>
       <!-- Float links to the right. Hide them on small screens -->
       <div class="w3-right w3-hide-small">
-        <a href="pentesting.php" class="w3-bar-item w3-button"> Playgrounds</a>
+        <a href="#" class="w3-bar-item w3-button"> Playgrounds</a>
         <a href="#about" class="w3-bar-item w3-button">About</a>
         <a href="#contact" class="w3-bar-item w3-button">Contact</a>
       </div>
@@ -39,7 +40,7 @@
           <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b> Playgrounds</b></h3>
           <div class="w3-row-padding w3-grayscale">
             <h3 id="sect">Web pentesting</h3>
-            <a href="https://www.reddit.com/r/pentest/comments/cwvstm/how_to_start_studying_to_get_into_cyber_security/?utm_medium=android_app&utm_source=share">
+            <a href="pentesting.php">
               <div id="elem" class="w3-col l3 m6 w3-margin-bottom" >
                 <div class="w3-display-container">
 
