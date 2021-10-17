@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" href="w3images/favicon.ico" type="image/x-icon">   
 <title>Pentesting Playground</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

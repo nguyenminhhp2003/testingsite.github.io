@@ -4,6 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="shortcut icon" href="w3images/favicon.ico" type="image/x-icon">  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -80,12 +81,12 @@ a:hover, a:active ,input[type=submit]:hover{
 
 <?php
 
-$servername = "localhost";
-$username = "phong";
-$password = "ubuntu";
+$servername = "sql302.epizy.com";
+$username = "epiz_29808693";
+$password = "XTJaqs2ZdBFqlh";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password,"myDB");
+$conn = mysqli_connect($servername, $username, $password,"epiz_29808693_myDB");
 
 echo "<br>";
 
