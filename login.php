@@ -19,6 +19,8 @@ session_start();
  }
  .logindiv{
    margin:200px;
+   width:50%;
+   
  }
  
 input[type=text], select {
@@ -131,6 +133,14 @@ if (isset($_POST["log"])) {
   
 }
 
+?>
+<?php
+if (isset($_POST["logout"])) {
+  if (session_destroy()) {
+    echo "<script>window.location.href='login.php'</script>";
+    exit();
+  }
+}
 ?>
 
 </body>
