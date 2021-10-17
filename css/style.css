@@ -500,5 +500,6 @@ button {
     
     border: 10px solid #0d99d7; } }
 
-
-
+.text-center{
+  text-align: center;
+}
