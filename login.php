@@ -81,14 +81,14 @@ a:hover, a:active ,input[type=submit]:hover{
 
 <?php
 
-$servername = "sql302.epizy.com";
-$username = "epiz_29808693";
-$password = "XTJaqs2ZdBFqlh";
+$servername = "localhost";
+$username = "phong";
+$password = "ubuntu";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password,"epiz_29808693_myDB");
+$conn = mysqli_connect($servername, $username, $password,"myDB");
 
-echo "<br>";
+
 
 ?>
 
@@ -123,9 +123,20 @@ if (isset($_POST["log"])) {
   $dbfetch =  mysqli_fetch_array($resul,MYSQLI_ASSOC);
   $row = mysqli_num_rows($resul);
   $count = 0;
+  $_SESSION["name"] = $dbfetch["Name"];
   if ($row == 1) {
-    echo "<script>window.location.href='pentesting.php'</script>";
-    $_SESSION["name"] = $dbfetch["Name"];
+    if ($_SESSION["name"] == "ADMIN") {
+      echo "<script>window.location.href='adminsite.php'</script>";
+    }elseif($_SESSION["name"] == "FAVORITE") {
+      echo "<script>window.location.href='myfavosite.php'</script>";
+    } 
+    
+    else{
+       echo "<script>window.location.href='pentesting.php'</script>";
+
+    }
+
+    
     
   
   }else{
